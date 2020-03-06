@@ -7,9 +7,9 @@ public class Main {
 
     public static void main(String[] args) {
 
-        testOddness();
+//        testOddness();
 
-//        keepContained();
+        keepContained();
 
     }
 
@@ -41,7 +41,7 @@ public class Main {
 
         number = keyboard.nextInt();
 
-        System.out.println(number);
+        System.out.println("Number contained is: " + number);
 
         }
 
