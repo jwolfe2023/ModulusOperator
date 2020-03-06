@@ -9,7 +9,9 @@ public class Main {
 
 //        testOddness();
 
-        keepContained();
+//        keepContained();
+
+        lastDigit();
 
     }
 
@@ -41,8 +43,24 @@ public class Main {
 
         number = keyboard.nextInt();
 
-        System.out.println("Number contained is: " + number);
+        System.out.println("Number contained is: " + ((number%8)+5));
 
         }
 
+
+    public static void lastDigit() {
+
+        int number;
+
+        Scanner keyboard;
+
+        keyboard = new Scanner(System.in);
+
+        System.out.println("Give me a number with 4 digits");
+
+        number = keyboard.nextInt();
+
+        System.out.println("Last Digit of " + number + " is: " + number%10);
+
+    }
 }
